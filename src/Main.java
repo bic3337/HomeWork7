@@ -18,13 +18,21 @@ public class Main {
         }
         System.out.println(" ");
         for (int y = book.length - 1; y >= 0; y--) {
+            System.out.print(book[y] );
+            if (y!=0){
+                System.out.print(",");
 
-            System.out.print(book[y] + "," + " ");
+            }
+
         }
         System.out.println(" ");
         for(int t =weigths.length-1;t>=0;t--) {
+            System.out.print(weigths[t]);
+            if (t!=0){
+                System.out.print(",");
 
-            System.out.print(weigths[t] + ",");
+            }
+
         }
 
         System.out.println(" ");
